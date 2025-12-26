@@ -16,4 +16,4 @@ My project is a website where you share , copy , upload images
 
  This webpage is deployed to GitHub Pages 
 
- Deployment Link:https://github.com/JohyMoney/se_project_spots
+ Deployment Link:git@github.com:JohyMoney/se_project_spots.git
