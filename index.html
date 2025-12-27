@@ -12,12 +12,13 @@
 </head>
 <body>
   <div class="page">
-  <header class="header"></header>
+  <header class="header">
   <img src="./images/Logo (1).svg" alt="Spot Logo" class="header__logo">
-  <main class="content"></main>
+  </header>
+  <main class="content">
   <section class="profile page__section">
     <img src="./images/avatar.jpg" alt="Bessie Coleman" class="profile__avatar"/>
-    <div class="profile__columon">
+    <div class="profile__column">
       <h1 class="profile__name">Bessie Coleman</h1>
       <p class="profile__description">Civil Aviator</p>
     <button type="button" class="profile__edit btn">
@@ -28,10 +29,10 @@
       <img src="./images/plus.svg" alt="plus icon"/>New Post
     </button>
   </section>
-  <section class="cards page__section"><ul class="cards__list">
+  <section class="cards page__section">
     <ul class="cards__list">
     <li class="card">
-      <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val Throrens">
+      <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val Throrens" class="card__image">
     <div class="card__content">
       <h2 class="card__title">Val Throrens</h2>
       <button  type="button" class="card__like-btn"></button>
@@ -76,15 +77,21 @@
   </section>
   <section class="profile"></section>
   <section class="cards"></section>
+  </main>
   <footer id="contacts" class="footer">
-        <footer class="footer">
   <div class="footer__columns">
     <div class="footer__column footer__column_content_hours">
-      <!-- Hours content here -->
+     <div class="footer__column footer__column_content_hours">
+  <h3 class="footer__column-heading">Hours</h3>
+  <ul class="footer__list">
+    <li class="footer__list-item">Monday - Friday: 6:00 AM - 10:00 PM</li>
+    <li class="footer__list-item">Saturday: 6:00 AM - 6:00 PM</li>
+    <li class="footer__list-item">Sunday: 8:00 AM - 6:00 PM</li>
+  </ul>
+</div>
     </div>
     <div class="footer__column footer__column_content_social">
    <img src="./images/Logo (1).svg" alt="logo" class="footer__logo">
-        <div class="footer__column">
         <h3 class="footer__column-heading">social media</h3>
         <ul class="footer__list">
         <li class="footer__list-item">
@@ -93,25 +100,7 @@
         <li class="footer__list-item">
         <a href="#" class="footer__social-link">Instagram</a>
         </li>
-        </div>
-    </div>
-  </div>
-    <div> class="footer__column footer__column_content_hours">
-      <!-- Hours content here -->
-    </div>
-    <div class="footer__column footer__column_content_social">
-      <img src="./images/logo_coffeeshop_light.svg" alt="Triple Espresso logo" class="footer__logo">
-        <div class="footer__column">
-        <h3 class="footer__column-heading">social media</h3>
-        <ul class="footer__list">
-        <li class="footer__list-item">
-        <a href="#" class="footer__social-link">Facebook</a>
-        <img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social-icon"/>
-        </li>
-        <li class="footer__list-item">
-        <a href="#" class="footer__social-link">Instagram</a>
-        <img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social-icon"/>
-        </li>
+        </ul>
         </div>
     </div>
   </div>
