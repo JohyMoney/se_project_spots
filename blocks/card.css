@@ -4,10 +4,11 @@
 
 
 .card__title{
+  margin: 0;
   font-size: 20px;
    font-weight: 500;
     line-height: 1.2;
-    max-width: 353px (desktop) / 235px (mobile);
+    max-width: 353px;
     text-overflow: ellipsis;
      white-space: nowrap;
      overflow: hidden;
@@ -31,7 +32,6 @@
 }
 
 .card__like-button{
-  background-image:url(../images/heart.svg);
   width: 23px;
   height: 20px;
   border:none;
@@ -42,11 +42,12 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 @media screen and (max-width:627px){
   .card__image{
-    height: 288px;
+    height: 235px;
   }
 
 }
