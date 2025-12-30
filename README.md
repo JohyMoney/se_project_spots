@@ -22,4 +22,4 @@ My project is a website where you share , copy , upload images
  Link : https://johymoney.github.io/se_project_spots/
 
  video
- https://youtu.be/loe2TxnlrEs
+ link :https://youtu.be/loe2TxnlrEs
