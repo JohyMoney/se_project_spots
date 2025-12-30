@@ -18,5 +18,8 @@ My project is a website where you share , copy , upload images
 
  Deployment Link:git@github.com:JohyMoney/se_project_spots.git
  
- Website/video
+ Website
  Link : https://johymoney.github.io/se_project_spots/
+
+ video
+ https://youtu.be/loe2TxnlrEs
