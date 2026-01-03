@@ -14,7 +14,7 @@
 
 }
 
-.profile__columon{
+.profile__column{
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@
    color: #212121;
 }
 
-.profile__descrition{
+.profile__description{
      margin: 0;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -43,14 +43,36 @@
     max-width: 420px;
 }
 
-.profile__edit__btn{
-margin-top: auto;
+.profile__edit-btn {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
-.profile__add-btn{
+.profile__add-btn {
   margin-left: auto;
+  padding: 0;
+  width: 157px;
+  height: 52px;
+  background-color: #212121;
+  color: #fcf5e5;
+  border-radius: 8px;
+  align-self: end;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
 }
-
 .card__like-button:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -100,5 +122,3 @@ margin-top: auto;
     max-width: 288px;
     width: 100%;
   }
-
-}
