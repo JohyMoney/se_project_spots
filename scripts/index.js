@@ -6,11 +6,6 @@ const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
-console.log("editProfileBtn:", editProfileBtn);
-console.log("editProfileModal:", editProfileModal);
-console.log("newPostBtn:", newPostBtn);
-console.log("newPostModal:", newPostModal);
-
 editProfileBtn.addEventListener("click", function () {editProfileModal.classList.add("modal__container--opened");}
 );
 
