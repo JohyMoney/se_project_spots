@@ -1,7 +1,6 @@
 const editprofilebtn = document.querySelector(".profile__edit-btn");
 const editprofilemodal = document.querySelector(".edit-profile-modal");
 const editProfileCloseBtn = editprofilemodal.querySelector(".modal__close-btn");
-console.log("Modal found:", editprofilemodal);
 
 const editProfileForm = editprofilemodal.querySelector(".modal__form");
 const addCardForm = document.querySelector(".new-post-modal .modal__form");
